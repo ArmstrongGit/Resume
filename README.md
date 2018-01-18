@@ -2,7 +2,7 @@
 # 联系方式
 - 手机：13260560512
 - Email：suxiaoweiwork@163.com
-- QQ/微信号：13260560512
+
 
 
 
@@ -77,7 +77,7 @@
    ###### 项目内容：
 - 项目架构的三层，app+baselibrary+framelibrary  。app层主要是项目的具体代码与逻辑，baselibrary是基础层。
 - baselibrary--基类BaseActivity对activity的代码进行了规范setContentView()、initTitle()、initView()、initData()；
-- baselibrary--BaseTranslucentActivity是对沉浸式状态栏的一个封装，最小支持到4.4版本，[4.4,5.0)的状态栏将才用透明状态栏，适配了虚拟导航栏
+- baselibrary--BaseTranslucentActivity是对沉浸式状态栏的一个封装，最小支持到4.4版本，[4.4,5.0)的状态栏用透明状态栏，适配了虚拟导航栏
 - baselibrary--封装了注解Annotation:CheckNet、OnClick、ViewById
 - baselibrary--封装AlertDialog采用Builder的设计模式
 - framelibrary是项目层，项目常用的一些封装类在这里
