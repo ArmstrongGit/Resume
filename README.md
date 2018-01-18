@@ -88,8 +88,10 @@
 -   混合开发探索：前端界面采用H5的方式实现界面的呈现，可以引入MUI框架来快速的实现App上的一些效果，比如下拉刷新上拉加载、列表侧滑等等，中间通过封装的JsOperation来进行数据的传递后端采用OKHTTP来实现与后台数据的交互。
 -   Material Design 控件的探索
 -  Material Design 动画的探索
--  NDK-增量更新
--  自定义全局异常捕获类，捕获异常存储日志，上传后台，自定义fixbug热修复
+- NDK-增量更新
+- 自定义全局异常捕获类，捕获异常存储日志，上传后台，自定义fixbug热修复
+- 封装JsonCallback对后台返回的json数据进行解析，通过不同的状态码对应处理
+- 封装DialogCallback统一的带等待窗口的处理类，继承自JsonCallback
 
       
 # 技能清单
